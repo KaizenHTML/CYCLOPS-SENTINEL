@@ -1,0 +1,25 @@
+﻿# Ignorar datos masivos y archivos de más de 50MB para cumplir con GitHub
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# Python y entornos virtuales
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
